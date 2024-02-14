@@ -1,22 +1,23 @@
 {
-	"name": "Xanthron Light",
-	"colors": {
-		"editor.background": "#ffffff",
-		"editor.foreground": "#1c2225",
+    "name": "Xanthron Light",
+    "colors": {
+        "editor.background": "#ffffff",
+        "editor.foreground": "#1c2225",
         "list.activeSelectionIconForeground": "#fff",
-
-		// TAB
-		"tab.activeBackground": "#c2e0f5",
-		"tab.activeBorder": "#3daee9",
-		"tab.activeForeground": "#ffffff",
+        // TAB
+        "tab.activeBackground": "#ffffff",
+        "tab.activeForeground": "#1c2225",
+        "tab.activeBorder": "#ffffff",
         "tab.border": "#aaaaaa",
         "tab.hoverBackground": "#c2e0f5",
         "tab.hoverForeground": "#1c2225",
-        "tab.inactiveBackground": "#ffffff",
+        "tab.inactiveBackground": "#eff0f1",
         "tab.inactiveForeground": "#1c2225",
         "tab.inactiveModifiedBorder": "#aaaaaa",
-
-		// TERMINAL
+        "tab.inactiveBorder": "#aaaaaa",
+        "editorGroupHeader.tabsBackground": "#eff0f1",
+        "editorGroupHeader.tabsBorder": "#aaaaaa",
+        // TERMINAL
         "terminal.ansiBlack": "#1c2225",
         "terminal.ansiBrightBlack": "#1c2225",
         "terminal.ansiBlue": "#5050ff",
@@ -39,60 +40,51 @@
         "terminal.selectionBackground": "#c2e0f5",
         "terminalCursor.background": "#505050",
         "terminalCursor.foreground": "#eeeeee",
-
-		// SideBar
-		"sideBar.background": "#ffffff",
+        // SideBar
+        "sideBar.background": "#ffffff",
         "sideBar.foreground": "#1c2225",
         "sideBar.border": "#aaaaaa",
         "sideBarSectionHeader.border": "#aaaaaa",
         "sideBarSectionHeader.background": "#eff0f1",
         "sideBarSectionHeader.foreground": "#666666",
-
-		// List
-		"list.activeSelectionBackground": "#3daee9",
+        // List
+        "list.activeSelectionBackground": "#3daee9",
         "list.activeSelectionForeground": "#ffffff",
         "list.inactiveSelectionBackground": "#c2e0f5",
         "list.inactiveSelectionForeground": "#1c2225",
-		"list.inactiveFocusOutline": "#3daee9",
+        "list.inactiveFocusOutline": "#3daee9",
         "list.highlightForeground": "#c2e0f5",
-		"list.hoverBackground": "#c2e0f5",
-
-		// ActiveBar
-		"activityBar.background": "#ffffff",
+        "list.hoverBackground": "#c2e0f5",
+        // ActiveBar
+        "activityBar.background": "#ffffff",
         "activityBar.foreground": "#1c2225",
         "activityBar.activeBackground": "#c2e0f5",
         "activityBar.border": "#aaaaaa",
-		"activityBar.activeBorder": "#3daee9",
+        "activityBar.activeBorder": "#3daee9",
         "activityBar.inactiveForeground": "#666666",
-		"activityBarBadge.background": "#3daee9",
-		"activityBarBadge.foreground": "#ffffff",
-
-		// Dropdown
-		"dropdown.background": "#ffffff",
+        "activityBarBadge.background": "#3daee9",
+        "activityBarBadge.foreground": "#ffffff",
+        // Dropdown
+        "dropdown.background": "#ffffff",
         "dropdown.listBackground": "#ffffff",
         "dropdown.border": "#aaaaaa",
         "dropdown.foreground": "#1c2225",
-
-		//Statusbar
-		"statusBar.border": "#aaaaaa",
+        //Statusbar
+        "statusBar.border": "#aaaaaa",
         "statusBar.background": "#eff0f1",
         "statusBar.foreground": "#1c2225",
-
-		//Suggest Window
+        //Suggest Window
         "editorSuggestWidget.background": "#ffffff",
-		"editorSuggestWidget.foreground": "#1c2225",
+        "editorSuggestWidget.foreground": "#1c2225",
         "editorSuggestWidget.selectedBackground": "#3daee9",
-		"editorSuggestWidget.selectedForeground": "#ffffff",
+        "editorSuggestWidget.selectedForeground": "#ffffff",
         "editorSuggestWidget.highlightForeground": "#1c2225",
-
-		"panelTitle.activeForeground": "#3daee9",
-		"panelTitle.activeBorder": "#3daee9",
+        "panelTitle.activeForeground": "#3daee9",
+        "panelTitle.activeBorder": "#3daee9",
         "panelTitle.inactiveForeground": "#1c2225",
-
-
-	},
-	"tokenColors": [
-		{
+    },
+    "tokenColors": [
+        {
             "name": "Dark Red",
             "scope": [
                 "constant"
@@ -249,5 +241,5 @@
                 "foreground": "#00ff00"
             }
         }
-	]
+    ]
 }
