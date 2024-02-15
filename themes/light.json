@@ -81,7 +81,7 @@
         "editorSuggestWidget.highlightForeground": "#1c2225",
         "panelTitle.activeForeground": "#3daee9",
         "panelTitle.activeBorder": "#3daee9",
-        "panelTitle.inactiveForeground": "#1c2225",
+        "panelTitle.inactiveForeground": "#1c2225"
     },
     "tokenColors": [
         {
@@ -241,5 +241,9 @@
                 "foreground": "#00ff00"
             }
         }
-    ]
+    ],
+    "semanticTokenColors": {
+        "bitwise": "#1c2225"
+    },
+    "semanticHighlighting": true
 }
